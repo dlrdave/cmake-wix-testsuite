@@ -5,8 +5,8 @@
 			FileKey="CM_FP_bin.hw.exe"/>
 		<InstallExecuteSequence>
 			<Custom Action="MyCustomAction"
-				After="InstallFiles">
-				Installed 
+				After="InstallFinalize">
+				NOT Installed 
 			</Custom>
 		</InstallExecuteSequence>
 	</CPackWiXFragment>
